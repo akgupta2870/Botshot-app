@@ -1,0 +1,25 @@
+.header-div {
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  top: 0%;
+  z-index: 99;
+  box-shadow: 5px 5px 5px #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  @media (max-width: 767px) {
+    width: 100%;
+  }
+  .logo-style {
+    height: 35px;
+    width: 140px;
+    float: left;
+    padding-left: 35px;
+  }
+  .nav-style {
+    padding: 18px;
+    margin-right: 10px;
+    float: right;
+  }
+}
