@@ -10,12 +10,25 @@ export const Header = () => {
           />
         </span>
         <div className="nav-style">
+          {/* <ul>
+            <li>
+              <link >Home</link>
+            </li>
+            <li>
+              <link>Our Product</link>
+            </li>
+            <li>
+              <link>Integration</link>
+            </li>
+            <li>
+              <link>Pricing</link>
+            </li>
+          </ul> */}
           <span className="nav-span">Home</span>
           <span className="nav-span">Our Product </span>
           <span className="nav-span">Integration</span>
           <span className="nav-span">Pricing</span>
         </div>
-        <hr className="hr-style"></hr>
       </div>
     </>
   );

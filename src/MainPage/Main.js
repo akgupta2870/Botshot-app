@@ -1,7 +1,7 @@
 import "./MainStyle.css";
 import FormButtons from "./FormButtons";
 import SecondFormButtons from "./SecondFormButton";
-import { Header } from "./Header";
+import { Header } from "../Botshot/Header";
 export const Main = () => {
   return (
     <>

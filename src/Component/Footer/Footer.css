@@ -1,0 +1,37 @@
+.footer {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .footer {
+    -webkit-box-shadow: 5px 5px 22px #615353;
+            box-shadow: 5px 5px 22px #615353;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 150%;
+  }
+  .footer .footer_button {
+    background-color: #4b56c0;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 29px;
+    width: 160px;
+    height: 40px;
+    font-size: 12px;
+    margin: 0px 15px;
+  }
+}
+/*# sourceMappingURL=Footer.css.map */
